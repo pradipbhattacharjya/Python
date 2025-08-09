@@ -38,7 +38,7 @@ class Atm:
     print('pin created successfully')
     self.menu()
 
-  def change_pin():
+  def change_pin(self):
     old_pin = input('enter old pin')
 
     if old_pin == self.pin:
