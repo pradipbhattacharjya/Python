@@ -12,3 +12,5 @@ p3 = Person('ankita','female')
 
 d = {'p1':p1,'p2':p2,'p3':p3}
 
+for i in d:
+  print(d[i].gender)
