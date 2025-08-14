@@ -16,4 +16,6 @@ class SmartPhone(Phone):
         print(self.__price)
 
 s=SmartPhone(20000, "Apple", 13)
+# print(s.brand)
+# s.check()
 s.show()
