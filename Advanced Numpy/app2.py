@@ -24,4 +24,4 @@ print((a > 50) & (a % 2 == 0))
 print(a[(a > 50) & (a % 2 == 0)])
 
 #find all numbers not divisible by 7
-print(a[a % 7 == 0])
+print(a[~(a % 7 == 0)])
